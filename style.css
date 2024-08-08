@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main > ul > li > a {
+  border-color: black;
+  border: 5px;
+}
+.sub,
+li,
+a {
+  text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 10px 30px 10px 20px;
+  align-items: center;
+  border-color: black;
+}
+.sub > li > img {
+  width: 80px;
+  height: 80px;
+  padding-left: 20px;
+}
+.sub > .key {
+  width: 400px;
+  height: 46px;
+  cursor: text;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 0px 12px;
+  background-color: rgb(224, 224, 224);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 70px;
+}
+.sub > li > i {
+  width: 20px;
+  font-weight: 600;
+}
+.sub > li > input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  width: 300px;
+  height: 50px;
+}
+.sub > .cart {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: green;
+  color: rgb(163, 251, 11);
+}
+
+.sub .cart i.fa-cart-shopping > a {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: green;
+  color: rgb(151, 16, 255);
+}
+
+.sub > li > a {
+  color: black;
+}
+.sub > .cart > a {
+  color: white;
+}
+.line {
+  height: 1px;
+  border: none;
+  background-color: rgb(235, 235, 235);
+}
+.banner {
+  height: 300px;
+  width: 100%;
+}
+.flex-container,
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.hero > .flex-items > a > img {
+  width: 350x;
+  height: 200px;
+  padding: 3px;
+}
+.hero,
+.flex-items,
+a,
+img {
+  padding: 2px;
+}
+.sub-list,
+li,
+a,
+img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.list-items > a > img {
+  width: 180px;
+  height: 200px;
+}
+.sub-list,
+.list-items,
+a,
+img {
+  padding: 2px;
+}
+.heading {
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+}
+
+.sub-order,
+li,
+a,
+img {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.order-items > a > img {
+  width: 150px;
+  height: 180px;
+}
+
+.product {
+}
+
+/* Reset default margin and padding for the list */
+.image-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for list items */
+.image-list li {
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  margin: 10px; /* Add some spacing between items */
+}
+
+/* Style for images */
+.image-list img {
+  width: 100px; /* Adjust image width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for text below the images */
+.image-list p {
+  margin-top: 5px; /* Add some space between image and text */
+  text-align: center; /* Center-align the text */
+}
+
+.productlist {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.table4 {
+  margin: 10px;
+  background-color: antiquewhite;
+}
